@@ -1,0 +1,156 @@
+@media screen and (max-width: 1000px) {
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top:20px;
+  }
+
+  
+  .easy-Label {
+    margin-left: 0px;
+  }
+
+  #hambuger {
+    display: flex;
+  }
+
+  .easynavlinks{
+    display: flex;
+    position: absolute;
+    top: 80px;
+    background-color:#fff;
+    width: 80%;
+    height: 55vh;
+    border-radius: 7px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border-bottom: 1px solid whitesmoke;
+    box-shadow: 0 0 60px rgb(147, 145, 145);;
+  }
+
+  .easynavlinks ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin:auto;
+    margin-top: 0;
+    gap:0;
+  }
+
+  .easynavlinks ul li {
+    padding:2px;
+    margin-top:10px;
+  }
+ 
+  .invite-button{
+    display: none;
+  }
+
+  #in-button {
+    margin-right: 0px;
+  }
+
+  .easy-imageHero {
+    position: static;
+    width: 100%;
+  }
+
+  .easy-mockups {
+    width: 70%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+
+  .easyHero {
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .bankingContent {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+  }
+
+  .bankingContent h1 {
+    font-size: 45px;
+    line-height: 1;
+    font-weight: lighter;
+  }
+
+  .EasybankQuestion {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .QuestionContent {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .QuestionContent h2 {
+    font-size: 45px;
+    line-height: 1;
+    font-weight: lighter;
+    margin-top:40px;
+  }
+
+  .QuestionCards {
+    margin-left: 0px;
+    margin-top: 0px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .EasybankArticle h2 {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .Article-Card {
+    flex-direction: column;
+    align-items: center;
+    margin-left:0px; 
+    margin-top:20px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    text-align: center;
+  }
+
+  .logo-icon {
+    margin-left: 0px;
+    gap: 20px;
+  }
+
+  .futlinks{
+    flex-direction: column;
+    gap:10px;
+  }
+
+  .futbuttn  {
+    flex-direction: column;
+  }
+
+}
+
+
+
+/* fixing the nav and body refuse to scroll */
+/*  */

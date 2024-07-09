@@ -1,0 +1,316 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  color: #fff;
+}
+
+p {
+  color: hsl(233, 8%, 62%);
+}
+
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: hsl(0, 0%, 98%);
+}
+
+body {
+  position: relative;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 1001;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.easy-Label {
+  margin-left: 40px;
+}
+
+.easynavlinks ul{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.invite-button {
+  background: linear-gradient(120deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  padding: 7px 20px;
+  text-decoration: none;
+  border-radius: 15px;
+  margin-right: 70px;
+}
+
+.easy-button {
+  width: 155px;
+  background: linear-gradient(120deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  padding: 7px 20px;
+  text-decoration: none;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#hambuger {
+  display: none;
+}
+
+.easy-bttn {
+  background: linear-gradient(120deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  padding: 7px 20px;
+  width: 15%;
+  text-decoration: none;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.navbar-underScore{
+  width:100%;
+  border-top:2px solid rgb(181, 177, 177);
+  transition:0.1s ease-in-out; 
+  position: relative;
+  top:25px;
+  visibility: hidden;
+}
+
+
+.links:hover .navbar-underScore {
+  border-top:2px solid rgb(25, 164, 99);
+  visibility: visible;
+}
+
+.easyHero {
+  margin-top: 200px;
+}
+
+.bankingContent {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-transform: capitalize;
+  flex-wrap: wrap;
+}
+
+.bankingContent h1 {
+  font-size: 60px;
+  line-height: 1;
+}
+
+.bankingContent p {
+  font-size: 17px;
+}
+
+.easy-imageHero {
+  width: 770px;
+  position: absolute;
+  right: -150px;
+  top: -90px;
+}
+
+.easy-mockups {
+  width: 600px;
+  position: absolute;
+  right: -95px;
+  top: -25px;
+}
+
+.EasybankQuestion {
+  margin-top: 70px;
+  background-color: hsl(220, 16%, 96%);
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.QuestionContent {
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+.QuestionContent h2 {
+  line-height: 1.5;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.QuestionCards {
+  margin-left: 60px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.QuestionCards .card h3 {
+  margin-top: 15px;
+}
+
+.QuestionCards .card p {
+  margin-top: 15px;
+}
+
+.QuestionCards .card img {
+  width: 30%;
+}
+
+.EasybankArticle {
+  margin-top: 60px;
+}
+
+.EasybankArticle h2 {
+  margin-left: 60px;
+  line-height: 2;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.Article-Card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 60px;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.img-card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 267px;
+  cursor: pointer;
+}
+
+.img-card img {
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.img-card .card-body {
+  margin-left: 10px;
+  padding: 12px;
+}
+
+.img-card p {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.img-card h3 {
+  margin-top: 10px;
+}
+
+footer {
+  color: #fff;
+  margin-top: 50px;
+  background-color: hsl(233, 26%, 24%);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.futlinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.logo-icon {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.logo-icon .icon {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.logo-icon .icon img {
+  cursor: pointer;
+}
+
+.futlinks ul {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+
+.futbuttn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.futbuttn p {
+  font-size: 12px;
+}
+
+.caption {
+  color: white;
+}
+
+.footer-button {
+  background: linear-gradient(120deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  padding: 7px 20px;
+  text-decoration: none;
+  border-radius: 15px;
+  text-align: center;
+  margin-right: 70px;
+}
+
+/* hovering state */
+.logo-icon .icon img:hover {
+  color: hsl(136, 65%, 51%);
+}
+
+.futlinks ul li:hover {
+  color: hsl(136, 65%, 51%);
+}
+
+.footer-button:hover{
+  background: linear-gradient(120deg, hsl(137, 100%, 86%), hsl(194, 34%, 57%));
+}
+
+.img-card .card-body h3:hover {
+  color: hsl(136, 65%, 51%);
+}
+
+header .invite-button:hover {
+  background: linear-gradient(120deg, hsl(137, 100%, 86%), hsl(194, 34%, 57%));
+}
+.bankingContent .easy-button:hover {
+  background: linear-gradient(120deg, hsl(137, 100%, 86%), hsl(194, 34%, 57%));
+}
+
+
+
+
