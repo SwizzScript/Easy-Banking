@@ -16,7 +16,7 @@ window.addEventListener('resize', () => {
  if (window.innerWidth < 1000) {
    easyHero.src = "./images/bg-intro-mobile.svg"; 
  } else {
-  easyNav.style.display = 'flex';
+  easyNav.style.display = 'none';
   easyHero.src = "./images/bg-intro-desktop.svg";
  }
 })
