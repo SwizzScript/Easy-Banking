@@ -4,15 +4,15 @@ const easyHero = document.getElementById("imageHero");
 const imageMockup = document.getElementById("imageMockup");
 
 
-// if (window.innerWidth < 1000) {
-//   easyNav.style.display = 'none';
-// } else {
-//   easyNav.style.display = 'flex';
-// }
-easyNav.style.display = 'none';
+if (window.innerWidth < 600) {
+  easyNav.style.display = 'none';
+} else {
+  easyNav.style.display = 'flex';
+}
+// easyNav.style.display = 'none';
 
 window.addEventListener('resize', () => {
- if (window.innerWidth < 1000) {
+ if (window.innerWidth < 600) {
    easyHero.src = "./images/bg-intro-mobile.svg";
  } else {
   easyNav.style.display = 'none';
